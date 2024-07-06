@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+<meta charset="UTF-8">
+<title>首页</title>
+<link rel="stylesheet" href="/css/index.css">
+<link rel="stylesheet" href="/css/my.css">
+<style type="text/css">
+[v-cloak] {
+	display: none;
+}
+</style>
+</head>
+<body>
+	<div v-cloak id="app">
+		<ul>
+			<li v-for=""></li>
+		</ul>
+		<el-button type="primary" @click="activeButton">{{message}}</el-button>
+	</div>
+	<script charset="utf-8" type="text/javascript" src="/js/vue.min.js"></script>
+	<script charset="utf-8" type="text/javascript" src="/js/index.js"></script>
+	<script charset="utf-8" type="text/javascript" src="/js/axios.min.js"></script>
+	<script charset="utf-8" type="text/javascript" src="/js/my.js"></script>
+	<script type="text/javascript">
+		Vue.use(ELEMENT);
+		var vm = new Vue({
+			data : {
+				message : "submit",
+				list:[{
+					
+				}]
+			},
+			methods : {
+				activeButton : function() {
+					alert("123")
+				}
+			},
+			watch : {
+
+			},
+			created : function() {
+
+			}
+		}).$mount('#app')
+	</script>
+</body>
+</html>

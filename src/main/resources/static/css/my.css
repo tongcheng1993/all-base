@@ -1,0 +1,14 @@
+html, body, ul, ol, li, p, h1, h2, h3, h4, h5, h6, table, td, th, img, div, dl, dt, dd, input, select, form, fieldset {
+    margin: 0 auto;
+    padding: 0;
+    border: none;
+}
+
+body {
+    background-color: rgb(233, 250, 255);
+    color: rgb(85, 85, 85);
+    font-family: ËÎÌו, serif;
+    font-size: 12px;
+    margin: 0 auto;
+    overflow: auto;
+}
